@@ -1,6 +1,6 @@
 {
   "name": "@zhouhao27/create-express",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Create an express Node server",
   "main": "index.js",
   "bin": {
