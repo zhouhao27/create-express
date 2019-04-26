@@ -1,22 +1,21 @@
 {
   "name": "@zhouhao27/create-express",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Create an express Node server",
-  "main": "src/index.js",
+  "main": "index.js",
   "bin": {
     "create-express": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":[
+  "keywords": [
     "NodeJs",
     "Express",
     "VSCode",
     "TypeScript"
   ],
-  "files": [    
-    "bin/",
+  "files": [
     "src/",
     "templates/"
   ],
@@ -25,7 +24,7 @@
   "dependencies": {
     "arg": "^4.1.0",
     "chalk": "^2.4.2",
-    "esm": "^3.2.22",    
+    "esm": "^3.2.22",
     "inquirer": "^6.3.1",
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
