@@ -1,0 +1,33 @@
+{
+  "name": "@zhouhao27/create-express",
+  "version": "1.0.0",
+  "description": "Create an express Node server",
+  "main": "src/index.js",
+  "bin": {
+    "create-express": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":[
+    "NodeJs",
+    "Express",
+    "VSCode",
+    "TypeScript"
+  ],
+  "files": [    
+    "src/",
+    "templates/"
+  ],
+  "author": "Zhou Hao",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.22",    
+    "inquirer": "^6.3.1",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
